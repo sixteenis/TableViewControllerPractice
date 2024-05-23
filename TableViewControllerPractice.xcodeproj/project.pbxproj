@@ -13,6 +13,7 @@
 		06705F682BFF292B000FD95F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 06705F672BFF292B000FD95F /* Base */; };
 		06705F6A2BFF292D000FD95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06705F692BFF292D000FD95F /* Assets.xcassets */; };
 		06705F6D2BFF292D000FD95F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 06705F6C2BFF292D000FD95F /* Base */; };
+		06705F752BFF2EEC000FD95F /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06705F742BFF2EEC000FD95F /* SimpleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		06705F692BFF292D000FD95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06705F6C2BFF292D000FD95F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06705F6E2BFF292D000FD95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06705F742BFF2EEC000FD95F /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				06705F692BFF292D000FD95F /* Assets.xcassets */,
 				06705F6B2BFF292D000FD95F /* LaunchScreen.storyboard */,
 				06705F6E2BFF292D000FD95F /* Info.plist */,
+				06705F742BFF2EEC000FD95F /* SimpleTableViewController.swift */,
 			);
 			path = TableViewControllerPractice;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				06705F652BFF292B000FD95F /* ViewController.swift in Sources */,
 				06705F612BFF292B000FD95F /* AppDelegate.swift in Sources */,
 				06705F632BFF292B000FD95F /* SceneDelegate.swift in Sources */,
+				06705F752BFF2EEC000FD95F /* SimpleTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

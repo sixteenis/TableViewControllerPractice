@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0XV-lp-sZE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="edY-az-PYb">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -25,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="140" y="4"/>
         </scene>
-        <!--Table View Controller-->
+        <!--집중 모드-->
         <scene sceneID="PKL-Ai-2dZ">
             <objects>
                 <tableViewController id="0XV-lp-sZE" sceneMemberID="viewController">
@@ -178,10 +178,29 @@
                             <outlet property="delegate" destination="0XV-lp-sZE" id="GEe-c8-I6d"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="집중 모드" id="b8z-6m-wr9"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CaH-Ai-oGO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857" y="24"/>
+            <point key="canvasLocation" x="1782.4427480916029" y="23.943661971830988"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1aJ-NB-fN3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="edY-az-PYb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eQu-GV-xiF">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0XV-lp-sZE" kind="relationship" relationship="rootViewController" id="9l8-J1-M8h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FXS-Yb-eHs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855.72519083969462" y="23.943661971830988"/>
         </scene>
     </scenes>
     <resources>

@@ -12,7 +12,7 @@ class SimpleTableViewController: UITableViewController {
     var privateSetArray = ["개인/보안", "알림", "채팅", "멀티프로필"]
     var etcArray = ["고객센터/도움말"]
     var selectionArray = ["전체 설정", "개인 설정", "기타"]
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,16 +22,6 @@ class SimpleTableViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return selectionArray[section]
-//        switch section {
-//        case 0:
-//            return selectionArray[section]
-//        case 1:
-//            return selectionArray[section]
-//        case 2:
-//            return selectionArray[section]
-//        default:
-//            
-//        }
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0{

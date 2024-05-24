@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065A52CD2C0081A10002EB7E /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A52CC2C0081A10002EB7E /* ShoppingTableViewCell.swift */; };
+		065A52CF2C0081CA0002EB7E /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A52CE2C0081CA0002EB7E /* ShoppingTableViewController.swift */; };
 		06705F612BFF292B000FD95F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06705F602BFF292B000FD95F /* AppDelegate.swift */; };
 		06705F632BFF292B000FD95F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06705F622BFF292B000FD95F /* SceneDelegate.swift */; };
 		06705F652BFF292B000FD95F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06705F642BFF292B000FD95F /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065A52CC2C0081A10002EB7E /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
+		065A52CE2C0081CA0002EB7E /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 		06705F5D2BFF292B000FD95F /* TableViewControllerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewControllerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06705F602BFF292B000FD95F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06705F622BFF292B000FD95F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				06705F622BFF292B000FD95F /* SceneDelegate.swift */,
 				06705F642BFF292B000FD95F /* ViewController.swift */,
 				06705F662BFF292B000FD95F /* Main.storyboard */,
+				065A52CC2C0081A10002EB7E /* ShoppingTableViewCell.swift */,
+				065A52CE2C0081CA0002EB7E /* ShoppingTableViewController.swift */,
 				06705F692BFF292D000FD95F /* Assets.xcassets */,
 				06705F6B2BFF292D000FD95F /* LaunchScreen.storyboard */,
 				06705F6E2BFF292D000FD95F /* Info.plist */,
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065A52CD2C0081A10002EB7E /* ShoppingTableViewCell.swift in Sources */,
+				065A52CF2C0081CA0002EB7E /* ShoppingTableViewController.swift in Sources */,
 				06705F652BFF292B000FD95F /* ViewController.swift in Sources */,
 				06705F612BFF292B000FD95F /* AppDelegate.swift in Sources */,
 				06705F632BFF292B000FD95F /* SceneDelegate.swift in Sources */,
